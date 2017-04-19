@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 
 
 
-const MyApp = () => {
-    return (
-        <div>Simple React app started</div>
-    )
+class MyApp extends Components {
+
+    render() {
+        return (
+            <div>Simple React app started</div>
+        )
+    }
 };
 
 
